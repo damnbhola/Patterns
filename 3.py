@@ -12,7 +12,6 @@ for i in range(n):
         print("*", end="")
     print()
 
-# Optimized
+# Optimised
 for i in range(n):
-    print(""*i, end="")
     print("*"*(n-i))
